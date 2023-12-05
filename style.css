@@ -1,5 +1,18 @@
-@charset 'utf-8';
+@charset "UTF8";
 
+@font-face{
+    font-family: 'Passion one';
+    src: url('Passion_One/PassionOne-Regular.ttf') format('TrueType');  
+    font-weight: normal;
+    font-style: normal; 
+    
+}
+@font-face {
+    font-family: sriracha;
+    src: url('Sriracha/Sriracha-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+    }
 a{
     text-decoration: none;
     color: white;
@@ -10,13 +23,16 @@ a:hover{
 }
 
  *{
+  
     margin: 0px;
     padding: 0px;
+    
+    
  }  
  header > h1 {
     font-family: 'Passion One', cursive;
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 11vw;
     padding-top: 50px;
  }
 
@@ -26,17 +42,61 @@ header{
     text-align: center;
     padding-bottom: 50px; 
     margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 
-}div#div1 {
+}
+main{
+    font-family: 'sriracha';
+    padding-top: 10vh;
+   
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+div#div1 {
     background-image: url("imagens/background001.jpg");
     background-position: center center;
     background-attachment: fixed;
+   max-height: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    
 
 }
 
-#p1{
+.padrao
+{
+    line-height: 2em;
+    font-size: 3vw;
+    padding: 0px;
+    padding-left: 31px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pimagem{
+    line-height: 2em;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 3vw;
     background-color: rgba(37, 27, 27, 0.295);
-    width: 30%;
+    padding-left: 31px;
     color: white;
-    padding: 10px;
-} 
+    
+}
+
+#div2{
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    max-height: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    
+}
