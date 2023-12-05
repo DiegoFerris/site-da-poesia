@@ -103,11 +103,15 @@ div#div1 {
 footer{
     background-color: black;
     max-height: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 #rodape{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 2vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   
 }
