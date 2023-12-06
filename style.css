@@ -16,6 +16,7 @@
 a{
     text-decoration: none;
     color: white;
+  
 
 }
 a:hover{
@@ -40,28 +41,30 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding-bottom: 50px; 
-    margin-bottom: 30px;
+    padding: 50px;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 
 }
 main{
     font-family: 'sriracha';
-    padding-top: 10vh;
-   
-    padding-bottom: 10vh;
+    padding-top: 2vh;
     line-height: 2em;
+    
+   
 }
 
 div#div1 {
     background-image: url("imagens/background001.jpg");
     background-position: center center;
     background-attachment: fixed;
-   max-height: 50%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
+    max-height: 50%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+ 
+   
     
 
 }
@@ -70,13 +73,10 @@ div#div1 {
 {
     line-height: 2em;
     font-size: 3vw;
-    padding: 0px;
-    padding-left: 31px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+   
 }
 
 .pimagem{
@@ -85,7 +85,9 @@ div#div1 {
     display: inline-block;
     font-size: 3vw;
     background-color: rgba(37, 27, 27, 0.295);
-    padding-left: 31px;
+        padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
     color: white;
     
 }
@@ -95,23 +97,22 @@ div#div1 {
     background-position: center center;
     background-attachment: fixed;
     max-height: 50%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+ 
 }
 footer{
     background-color: black;
-    max-height: 25px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    width: 100%;
+    
+    
 }
 #rodape{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 2vw;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding: 1vw;
+    font-size: 2.5vw;
   
 }
