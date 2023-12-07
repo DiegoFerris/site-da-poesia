@@ -60,9 +60,9 @@ div#div1 {
     background-position: center center;
     background-attachment: fixed;
     max-height: 50%;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
+    padding: 5vw;
+    text-shadow: 1px black;
+
  
    
     
@@ -81,14 +81,11 @@ div#div1 {
 
 .pimagem{
     line-height: 2em;
-    padding-left: 30px;
     display: inline-block;
     font-size: 3vw;
     background-color: rgba(37, 27, 27, 0.295);
-        padding-top: 5vw;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
     color: white;
+    text-shadow: 3px black;
     
 }
 
@@ -97,9 +94,8 @@ div#div1 {
     background-position: center center;
     background-attachment: fixed;
     max-height: 50%;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
+    padding: 5vw;
+   
  
 }
 footer{
